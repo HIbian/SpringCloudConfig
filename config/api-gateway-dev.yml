@@ -6,7 +6,7 @@ zuul:
       path: /api-url/**  #映射地址
       serviceId: client01 #注册中心的服务名
     api-b:
-      path: /api-url-client02
+      path: /api-url-client02/**
       serviceId: client02
 ribbon:
   eureka:
