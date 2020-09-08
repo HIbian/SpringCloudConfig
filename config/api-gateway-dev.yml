@@ -2,5 +2,5 @@ zuul:
   prefix: /gateway #访问前缀
   routes:
     api-a: #随意起的名字
-      path: /api-url/**  #映射地址
+      path: /api-url-aaaa/**  #映射地址
       serviceId: client01 #注册中心的服务名
