@@ -1,6 +1,6 @@
 spring:
   mail:
-    host: smtp.qq.com
+    host: smtp.qq.compreprepre2.02.0
     username: 416711267@qq.com  #发送方的邮箱
     password: dnmavjddrxrzbhdj  # 设置密码，该处的密码是发送方QQ邮箱开启SMTP的授权码而非QQ密码
 
