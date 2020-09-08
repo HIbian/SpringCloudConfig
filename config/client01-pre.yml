@@ -1,28 +1,7 @@
-server:
-  port: 8088
 spring:
-  profiles:
-    active: instance01
-  application:
-    name: client01
   mail:
     host: smtp.qq.com
     username: 416711267@qq.com  #发送方的邮箱
     password: dnmavjddrxrzbhdj  # 设置密码，该处的密码是发送方QQ邮箱开启SMTP的授权码而非QQ密码
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    database: 0
-    jedis:
-      pool:
-        max-active: 50
-        max-wait: 3000
-        max-idle: 20
-    timeout: 5000
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost01:8001/eureka,http://localhost02:8002/eureka
 
 
